@@ -31,3 +31,6 @@ class Solution(object):
                 r -= 1
             max_area = max(max_area, min(height[l], height[r])*(r-l))
         return max_area
+
+a = Solution()
+print(a.maxArea(height=[2, 3.5, 2.8, 1]))
